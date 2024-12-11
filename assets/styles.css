@@ -1,0 +1,38 @@
+.recommendation-section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.recommendation-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.recommended-products {
+    display: flex;
+    gap: 15px;
+}
+
+.recommended-products li {
+    list-style: none;
+    text-align: center;
+    flex: 1;
+}
+
+.recommended-products li img {
+    max-width: 100%;
+    height: auto;
+}
+
+.recommended-products li h4 {
+    font-size: 1em;
+    margin: 10px 0 5px;
+}
+
+.recommended-products li p {
+    font-size: 0.9em;
+    color: #555;
+}
